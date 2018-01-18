@@ -7,7 +7,6 @@ function addElementToBeginningOfArray (array, element) {
 function destructivelyAddElementToBeginningOfArray (array, element) {
   return array.unshift(element)
 }
-console.log(destructivelyAddElementToBeginningOfArray([chcolateBars], "twix"))
 
 function addElementToEndOfArray (array, element) {
   const newArray = [...chocolateBars, "twix"]
