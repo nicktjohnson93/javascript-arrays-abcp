@@ -10,13 +10,12 @@ function destructivelyAddElementToBeginningOfArray (array, element) {
 }
 
 function addElementToEndOfArray (array, element) {
-  const newArray = [...chocolateBars, "twix"]
-  console.log(newArray)
+  return [...array, element]
 }
-console.log(addElementToEndOfArray([chocolate], "twix"))
 
 function destructivelyAddElementToEndOfArray (array, element) {
-  return array.push(element)
+  array.push(element)
+  return array
 }
 console.log(destructivelyAddElementToEndOfArray([chocolateBars], "twix"))
 
