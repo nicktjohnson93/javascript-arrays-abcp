@@ -17,14 +17,10 @@ function destructivelyAddElementToEndOfArray (array, element) {
   array.push(element)
   return array
 }
-console.log(destructivelyAddElementToEndOfArray([chocolateBars], "twix"))
 
 function accessElementInArray (array, index) {
-  var city = " is the best chocolate"
-  const newArray = [chocolateBars[0], city]
-  console.log(newArray)
+  return array[index]
 }
-console.log(accessElementInArray(chocolateBars[0], city))
 
 var accessElementInArray = " is the best chocolate";
 console.log(chocolateBars[0] + accessElementInArray)
