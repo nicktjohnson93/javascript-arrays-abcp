@@ -21,6 +21,3 @@ function destructivelyAddElementToEndOfArray (array, element) {
 function accessElementInArray (array, index) {
   return array[index]
 }
-
-var accessElementInArray = " is the best chocolate";
-console.log(chocolateBars[0] + accessElementInArray)
